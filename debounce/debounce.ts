@@ -10,8 +10,9 @@ function debounce<F extends (...args: any[]) => any>(func: F, waitFor: number) {
   };
 }
 
+export default debounce;
 
-const debouncedFunc = debounce((text: string) => console.log(text), 5000);
-
-debouncedFunc('Hello');
-debouncedFunc('World');
+// EXAMPLE:
+// const debouncedFunc = debounce((text: string) => console.log(text), 5000);
+// debouncedFunc('Hello');
+// debouncedFunc('World');
