@@ -28,12 +28,12 @@ const debounce2 = <F extends (...args: any[]) => any>(
 };
 
 // EXAMPLE:
-const debouncedFunc = debounce((text: string) => console.log(text), 5000);
-debouncedFunc("Hello");
-debouncedFunc("World");
+// const debouncedFunc = debounce((text: string) => console.log(text), 5000);
+// debouncedFunc("Hello");
+// debouncedFunc("World");
 
-const testFn = debounce2(console.log, 5000);
-testFn('hiiii')
-testFn('hiiii2')
+// const testFn = debounce2(console.log, 5000);
+// testFn('hiiii')
+// testFn('hiiii2')
 
 export default debounce;
