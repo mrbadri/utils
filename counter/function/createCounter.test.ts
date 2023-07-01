@@ -27,4 +27,3 @@ describe('createCounter function', () => {
     expect(counter.decrement()).toEqual(4);
   });
 });
-
