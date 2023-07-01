@@ -15,7 +15,6 @@ type TCreateCounterReturn = {
 function createCounter(init: number): TCreateCounterReturn {
   let val = init;
 
-  
   return {
     increment: () => ++val,
     decrement: () => --val,
