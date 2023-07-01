@@ -1,5 +1,10 @@
-// RUN: 
-// node --trace-uncaught .\exept\exept.js
+/**
+ * Run:
+ * node --trace-uncaught .\exept\exept.js
+ * 
+ * Refrence:
+ * https://leetcode.com/problems/to-be-or-not-to-be/
+ */
 
 type TExeptRetrun = {
   toBe: (input: any) => boolean;
@@ -16,7 +21,5 @@ const exept = (value: any): TExeptRetrun => {
     notToBe: (input: any) => input !== value || throwError("Equal"),
   };
 };
-
-
 
 export default exept;
