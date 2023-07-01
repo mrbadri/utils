@@ -5,6 +5,9 @@
  *
  * Run:
  * node ./map/map.test.ts
+ *
+ * Refrence:
+ * https://leetcode.com/problems/apply-transform-over-each-element-in-array
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 function map(arr, fn) {
@@ -14,4 +17,7 @@ function map(arr, fn) {
     }
     return temp;
 }
+// EAMPLE
+// const arr = map([1, 2, 3], (item) => item * 2);
+// console.log(arr);
 exports.default = map;

@@ -1,9 +1,12 @@
 /**
- * Test: 
+ * Test:
  * npx jest ./map/map.test.ts
- * 
- * Run: 
+ *
+ * Run:
  * node ./map/map.test.ts
+ *
+ * Refrence:
+ * https://leetcode.com/problems/apply-transform-over-each-element-in-array
  */
 
 function map(arr: number[], fn: (n: number, i: number) => number): number[] {
@@ -15,5 +18,9 @@ function map(arr: number[], fn: (n: number, i: number) => number): number[] {
 
   return temp;
 }
+
+// EAMPLE
+// const arr = map([1, 2, 3], (item) => item * 2);
+// console.log(arr);
 
 export default map;
