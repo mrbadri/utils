@@ -23,3 +23,4 @@ console.log(y); // prints 6
 // The main difference in terms of performance, readability, maintainability etc.
 
 // Q4:
+// What is Map in js 
