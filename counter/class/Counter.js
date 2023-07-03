@@ -1,8 +1,10 @@
 "use strict";
 /**
+ * Test:
+ * npx jest .\counter\class\Counter.test.ts
+ *
  * Run:
  * node .\counter\class\Counter.js
- *
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 class Counter {

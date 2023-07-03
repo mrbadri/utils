@@ -1,7 +1,9 @@
 /**
+ * Test:
+ * npx jest .\counter\class\Counter.test.ts
+ * 
  * Run: 
  * node .\counter\class\Counter.js
- * 
  */
 
 class Counter {
